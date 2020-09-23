@@ -3,13 +3,14 @@ package OOD.FactoryMethod;
 public class CountingSort implements Sort {
     private int[] array;
 
-    public CountingSort(int[] array1) {
-        this.array = array1;
+    public CountingSort(Integer...array1) {
+       array = new int[array1.length];
+       for (int i=0;i<array1.length;i++)
+       {
+           array[i]=array1[i];
+       }
     }
 
-    public int[] getArray() {
-        return array;
-    }
 
     @Override
     public void sort() {

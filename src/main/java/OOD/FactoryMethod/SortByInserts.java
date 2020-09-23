@@ -5,13 +5,13 @@ import java.util.Arrays;
 public class SortByInserts implements Sort {
     private int[] array;
 
-    public SortByInserts(int[] array1) {
-        this.array = array1;
+    public SortByInserts(Integer...array1) {
+        array =new int[array1.length];
+        for (int i = 0; i <array1.length; i++) {
+            array[i]=array1[i];
+        }
     }
 
-    public int[] getArray() {
-        return array;
-    }
 
 
     @Override
