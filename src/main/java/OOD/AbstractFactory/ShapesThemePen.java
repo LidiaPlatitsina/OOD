@@ -1,6 +1,7 @@
 package OOD.AbstractFactory;
 
 public class ShapesThemePen implements Pen {
+
     private String color;
     private boolean abrasion;
 

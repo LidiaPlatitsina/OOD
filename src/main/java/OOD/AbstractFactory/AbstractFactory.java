@@ -24,6 +24,7 @@ public class AbstractFactory {
     }
 
     public static void main(String[] args) {
+
         StationaryShop shop = configure("cat",48,"A5","точка", "черный",true);
         shop.print();
         StationaryShop shop1 = configure("shapes",96,"A4","клетка", "синий",false);

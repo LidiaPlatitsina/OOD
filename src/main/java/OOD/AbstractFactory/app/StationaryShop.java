@@ -5,6 +5,7 @@ import OOD.AbstractFactory.Pen;
 import OOD.AbstractFactory.factories.Factory;
 
 public class StationaryShop {
+
     private Notebook notebook;
     private Pen pen;
 

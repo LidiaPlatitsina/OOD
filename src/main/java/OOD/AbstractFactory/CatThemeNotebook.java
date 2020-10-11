@@ -32,7 +32,6 @@ public class CatThemeNotebook implements Notebook
         this.size=size;
     }
 
-
     @Override
     public String getType() {
         return type;

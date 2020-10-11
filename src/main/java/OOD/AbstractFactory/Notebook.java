@@ -1,6 +1,7 @@
 package OOD.AbstractFactory;
 
 public interface Notebook {
+
     int getSheets();
     void setSheets(int sheets);
     String getSize();

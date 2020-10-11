@@ -1,6 +1,7 @@
 package OOD.AbstractFactory;
 
 public class ShapesThemeNotebook implements Notebook {
+
     private int sheets;
     private String size;
     private String type;

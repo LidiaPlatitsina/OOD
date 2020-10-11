@@ -6,6 +6,7 @@ import OOD.AbstractFactory.ShapesThemeNotebook;
 import OOD.AbstractFactory.ShapesThemePen;
 
 public class ShapesThemeFactory implements Factory {
+
     @Override
     public Notebook createNotebook(int sheets, String size, String type) {
         return new ShapesThemeNotebook(sheets,size,type);

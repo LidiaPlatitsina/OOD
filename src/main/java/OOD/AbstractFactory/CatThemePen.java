@@ -1,6 +1,7 @@
 package OOD.AbstractFactory;
 
 public class CatThemePen implements Pen {
+
     private String color;
     private boolean abrasion;
 
