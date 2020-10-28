@@ -27,7 +27,7 @@ public class Iterator {
             index =2;
             return new ChildrenDepartment();
         }
-        return new MenDepartment();
+        return null;
     }
 
 }
