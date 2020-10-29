@@ -15,16 +15,21 @@ public class Total {
 
     public static List<String> addList(){
         List<String> list = new ArrayList<>();
-        list.add("боди");
-        list.add("футболка");
-        list.add("кофта");
-        list.add("штаны");
-        list.add("платье");
-        list.add("рубашка");
-        list.add("брюки");
-        list.add("пиджак");
-        list.add("юбка");
-        list.add("блузка");
+        list.add("Д:боди");
+        list.add("Д:футболка");
+        list.add("Д:кофта");
+        list.add("Д:штаны");
+        list.add("Д:платье");
+        list.add("Д:рубашка");
+        list.add("М:футболка");
+        list.add("М:рубашка");
+        list.add("М:брюки");
+        list.add("М:пиджак");
+        list.add("Ж:платье");
+        list.add("Ж:футболка");
+        list.add("Ж:юбка");
+        list.add("Ж:блузка");
+        list.add("Ж:штаны");
         return list;
     }
 }

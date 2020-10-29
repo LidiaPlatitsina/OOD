@@ -3,6 +3,7 @@ package OOD.IteratorAndVisitor.clothingStore.womenDepartment;
 import OOD.IteratorAndVisitor.clothingStore.Store;
 
 import java.util.List;
+import java.util.Objects;
 
 public class WomenDepartment implements Store {
 
@@ -25,8 +26,20 @@ public class WomenDepartment implements Store {
 
     @Override
     public void makeOrder(List<String> order) {
-        System.out.println("Вы сделали заказ в мужском отделе.");
+        System.out.println("Вы сделали заказ в женском отделе.");
         System.out.println("Сумма: "+cost(order));
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof WomenDepartment)) return false;
+        WomenDepartment that = (WomenDepartment) o;
+        return Objects.equals(getName(), that.getName());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getName());
+    }
 }
